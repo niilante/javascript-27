@@ -1,0 +1,61 @@
+{
+  "disallowImplicitTypeConversion": ["string"],
+  "disallowSpaceBeforeBinaryOperators": [","],
+  "disallowSpaceAfterBinaryOperators": ["!"],
+  "disallowKeywords": ["with"],
+  "disallowKeywordsOnNewLine": ["else"],
+  "disallowMultipleLineBreaks": true,
+  "disallowMultipleVarDecl": true,
+  "disallowSpaceBeforePostfixUnaryOperators": true,
+  "disallowMixedSpacesAndTabs": true,
+  "disallowTrailingComma": true,
+  "disallowYodaConditions": true,
+  "disallowEmptyBlocks": true,
+  "disallowMultipleSpaces": true,
+  "disallowQuotedKeysInObjects": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "disallowSpaceAfterObjectKeys": true,
+  "disallowSpacesInsideParentheses": true,
+  "disallowSpacesInsideArrayBrackets": true,
+
+  "disallowTrailingWhitespace": true,
+  "disallowSpacesInFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInNamedFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true
+  },
+  "disallowSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true
+  },
+  "maximumLineLength": 120,
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireBlocksOnNewline": true,
+  "requireDollarBeforejQueryAssignment": true,
+  "requireCapitalizedConstructors": true,
+  "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
+  "requireDotNotation": true,
+  "requireLineFeedAtFileEnd": true,
+  "requireLineBreakAfterVariableAssignment": true,
+  "requireSpaceBeforeBinaryOperators": ["?", "+", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+  "requireSpaceAfterBinaryOperators": ["?", "+", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try"],
+  "requireParenthesesAroundIIFE": true,
+  "requireSpacesInConditionalExpression": true,
+  "requireSpacesInForStatement": true,
+  "requireCapitalizedConstructors": true,
+  "requireSpaceBeforeObjectValues": true,
+  "requireCommaBeforeLineBreak": true,
+  "requireSpaceBeforeBlockStatements": true,
+  "validateIndentation": 2,
+  "validateJSDoc": {
+    "checkParamNames": true,
+    "requireParamTypes": true
+  },
+  "validateParameterSeparator": ", "
+}
