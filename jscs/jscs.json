@@ -17,22 +17,12 @@
   "disallowSpaceAfterObjectKeys": true,
   "disallowSpacesInsideParentheses": true,
   "disallowSpacesInsideArrayBrackets": true,
-
   "disallowTrailingWhitespace": true,
-  "disallowSpacesInFunctionExpression": {
-    "beforeOpeningRoundBrace": true
-  },
-  "disallowSpacesInNamedFunctionExpression": {
-    "beforeOpeningRoundBrace": true
-  },
-  "disallowSpacesInAnonymousFunctionExpression": {
-    "beforeOpeningRoundBrace": true
-  },
-  "disallowSpacesInFunctionDeclaration": {
-    "beforeOpeningRoundBrace": true
-  },
   "maximumLineLength": 120,
-  "requireSpacesInFunctionExpression": {
+  "disallowSpacesInFunction": {
+    "beforeOpeningRoundBrace": true
+  },
+  "requireSpacesInFunction": {
     "beforeOpeningCurlyBrace": true
   },
   "requireBlocksOnNewline": true,
