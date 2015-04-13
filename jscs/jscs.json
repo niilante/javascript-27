@@ -42,6 +42,7 @@
   "requireSpaceBeforeObjectValues": true,
   "requireCommaBeforeLineBreak": true,
   "requireSpaceBeforeBlockStatements": true,
+  "requireSemicolons": true,
   "validateIndentation": 2,
   "validateJSDoc": {
     "checkParamNames": true,
