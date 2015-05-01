@@ -39,6 +39,9 @@
   "requireParenthesesAroundIIFE": true,
   "requirePaddingNewLinesBeforeExport": true,
   "requirePaddingNewLinesAfterUseStrict": true,
+  "requirePaddingNewLinesAfterBlocks": {
+      "allExcept": ["inCallExpressions", "inArrayExpressions", "inProperties"]
+  },
   "requireSpacesInConditionalExpression": true,
   "requireSpacesInForStatement": true,
   "requireCapitalizedConstructors": true,
