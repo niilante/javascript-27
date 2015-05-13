@@ -16,7 +16,6 @@
     "request": "^2.55.0"
   },
   "scripts": {
-    "test": "jshint jscs && jscs jscs -c ./jscs/jscs.json",
-    "posttest": "./conditional-publish.js"
+    "test": "jshint jscs && jscs jscs -c ./jscs/jscs.json"
   }
 }
