@@ -9,7 +9,6 @@
     "jshint": "^2.7.0"
   },
   "devDependencies": {
-    "git-rev": "^0.2.1",
     "jscs": "^1.13.0",
     "jshint": "^2.7.0",
     "npm": "^2.9.1",
