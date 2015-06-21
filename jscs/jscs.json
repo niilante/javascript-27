@@ -32,6 +32,7 @@
   "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
   "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
   "requireDotNotation": true,
+  "requirePaddingNewLinesInObjects": true,
   "requireLineFeedAtFileEnd": true,
   "requireLineBreakAfterVariableAssignment": true,
   "requireSpaceBeforeBinaryOperators": ["?", "+", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
