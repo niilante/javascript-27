@@ -13,6 +13,23 @@
   "disallowYodaConditions": true,
   "disallowEmptyBlocks": true,
   "disallowMultipleSpaces": true,
+  "disallowObjectMethod": [{
+    "object": "describe",
+    "method": "only",
+    "message": "Using describe.only is not allowed"
+  }, {
+    "object": "describe",
+    "method": "skip",
+    "message": "Using describe.skip is not allowed"
+  }, {
+    "object": "it",
+    "method": "only",
+    "message": "Using it.only is not allowed"
+  }, {
+    "object": "it",
+    "method": "skip",
+    "message": "Using it.skip is not allowed"
+  }],
   "disallowQuotedKeysInObjects": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
   "disallowSpaceAfterObjectKeys": true,
@@ -59,15 +76,5 @@
     "checkParamNames": true,
     "requireParamTypes": true
   },
-  "validateParameterSeparator": ", ",
-
-  "disallowObjectMethod": [{
-    "object": "describe",
-    "method": "only",
-    "message": "Using describe.only is not allowed"
-  }, {
-    "object": "it",
-    "method": "only",
-    "message": "Using it.only is not allowed"
-  }]
+  "validateParameterSeparator": ", "
 }
