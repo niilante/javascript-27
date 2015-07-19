@@ -8,6 +8,9 @@
     "jscs": "^1.13.0",
     "jshint": "^2.7.0"
   },
+  "dependencies": {
+    "chai": "^3.1.0"
+  },
   "devDependencies": {
     "jscs": "^1.13.0",
     "jshint": "^2.7.0",
@@ -16,7 +19,7 @@
     "request": "^2.55.0"
   },
   "scripts": {
-    "test": "jshint jscs && jscs jscs -c ./jscs/jscs.json",
+    "test": "jshint jscs test && jscs jscs test -c ./jscs/jscs.json && mocha",
     "deploy": "publish"
   }
 }
