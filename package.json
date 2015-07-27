@@ -1,6 +1,6 @@
 {
   "name": "wealthfront-javascript",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "description": "A collection of Wealthfront configuration files for use in front end projects",
   "author": "Eli White (eli@wealthfront.com)",
   "main": "jscs/index",
