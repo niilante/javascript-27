@@ -1,0 +1,4 @@
+node_modules/
+jscs/.jshintrc
+.gitignore
+.npmignore
