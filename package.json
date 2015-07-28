@@ -3,5 +3,20 @@
   "version": "1.5.0",
   "description": "A collection of Wealthfront configuration files for use in front end projects",
   "author": "Eli White (eli@wealthfront.com)",
-  "main": "jscs/index"
+  "main": "jscs/index",
+  "peerDependencies": {
+    "jscs": "^1.13.0",
+    "jshint": "^2.7.0"
+  },
+  "devDependencies": {
+    "git-rev": "^0.2.1",
+    "jscs": "^1.13.0",
+    "jshint": "^2.7.0",
+    "npm": "^2.9.1",
+    "request": "^2.55.0"
+  },
+  "scripts": {
+    "test": "jshint jscs && jscs jscs -c ./jscs/jscs.json",
+    "posttest": "./conditional-publish.js"
+  }
 }
