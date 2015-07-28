@@ -5,22 +5,22 @@
   "author": "Eli White (eli@wealthfront.com)",
   "main": "jscs/index",
   "peerDependencies": {
-    "jscs": "^1.13.1",
-    "jshint": "^2.8.0"
+    "eslint": "^0.24.1",
+    "jscs": "^1.13.1"
   },
   "dependencies": {
     "chai": "3.1.0"
   },
   "devDependencies": {
+    "eslint": "0.24.1",
     "jscs": "1.13.1",
-    "jshint": "2.8.0",
     "mocha": "2.2.5",
     "npm": "2.13.1",
     "publish": "0.5.0",
     "request": "2.58.0"
   },
   "scripts": {
-    "test": "jshint jscs test && jscs jscs test -c ./jscs/jscs.json && mocha",
+    "test": "eslint jscs test --reset=true && jscs jscs test -c ./jscs/jscs.json && mocha",
     "deploy": "publish"
   }
 }
