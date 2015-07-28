@@ -33,6 +33,7 @@
   "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
   "requireDotNotation": true,
   "requirePaddingNewLinesInObjects": true,
+  "requireFunctionDeclarations": true,
   "requireLineFeedAtFileEnd": true,
   "requireLineBreakAfterVariableAssignment": true,
   "requireSpaceBeforeBinaryOperators": ["?", "+", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
