@@ -1,9 +1,18 @@
 language: node_js
-script: "npm test"
+script: npm test
 node_js:
-  - node
-  - io.js
-  - "0.12"
+- node
+- io.js
+- '0.12'
 notifications:
   email:
-    - eng+build+wealthfrontjavascript@wealthfront.com
+  - eng+build+wealthfrontjavascript@wealthfront.com
+deploy:
+  provider: npm
+  email: ops+npm@wealthfront.com
+  api_key:
+    secure: dCXCQREzhlZs60z1zb6Cmoamb0kABVYL92ElFD/uIH07B3catXcqLy/iUck6fthL+vStN95e/4Jj/Z/GR3daTSJIJLoG1OegHhapaBS1AjoJGxXyNLEVM29HaWSwGgQmQqQoo9gWM8Up+pP0POdS9z0+PhHmNsltop4XQcjXzKj3mfOxbCe87fMECYtobE70GiREiY4UHpv4u8Tj7ZdZiWstwFX4o7X8f+C9Zm34pvwvV5dqyfLd76mXak0ArtaCgPgz94uUkSa5TmSzR3COLEyuXUEgqWfPUQkZRPqhJ0011On3y1ZNeRKiNBrMceb9KUaIYuhXegGxQPfYMd00r/C6j+aBlR6hjQ4abkwF1cSwGfMUu9jSPpGwSp1scSnyQLwAjURuy0nfzYkxg/KLhTiSaE1NR1C1u1Dpve7NusVRc4iR92Fxt2mnTKSYR9MtkUQiWN0h4s9hK0tFgK4iD+ZXkH4k+lYUikWUfVWyw82mJZ0uo2Z+DiwGv2ELpXpZa2fORJIOSBOU8Y15dI9ZleEEphcLzNvBEr5yZc5p5jEJYWLMa1yMfr1l+vSO7yL2Xd5aIRXLaLvNobp34/BJ9C2+slHsTqisvAtMI82sciQuiBFMWpg1YFQJbGi31irQ9Aah8zg0W/JYFFdxtavijiYkzuYkRqTX0Vlx6tbs62k=
+  on:
+    tags: true
+    repo: wealthfront/javascript
+    node: '0.12'
