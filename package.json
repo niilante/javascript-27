@@ -4,10 +4,14 @@
   "description": "A collection of Wealthfront configuration files for use in front end projects",
   "author": "Wealthfront Engineering <eng@wealthfront.com> (http://wlth.fr)",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wealthfront/javascript"
+  },
   "main": "jscs/index",
   "peerDependencies": {
     "eslint": "^0.24.1",
-    "jscs": ">1.13.1"
+    "jscs": ">=1.13.1"
   },
   "dependencies": {
     "chai": "3.1.0"
