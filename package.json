@@ -15,13 +15,9 @@
   "devDependencies": {
     "eslint": "0.24.1",
     "jscs": "2.0.0",
-    "mocha": "2.2.5",
-    "npm": "2.13.1",
-    "publish": "0.5.0",
-    "request": "2.58.0"
+    "mocha": "2.2.5"
   },
   "scripts": {
-    "test": "eslint jscs test --reset && jscs jscs test -c ./jscs/jscs.json && mocha",
-    "deploy": "publish"
+    "test": "eslint jscs test --reset && jscs jscs test -c ./jscs/jscs.json && mocha"
   }
 }
