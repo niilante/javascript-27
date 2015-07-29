@@ -2,7 +2,8 @@
   "name": "wealthfront-javascript",
   "version": "2.1.0",
   "description": "A collection of Wealthfront configuration files for use in front end projects",
-  "author": "Eli White (eli@wealthfront.com)",
+  "author": "Wealthfront Engineering <eng@wealthfront.com> (http://wlth.fr)",
+  "license": "Apache-2.0",
   "main": "jscs/index",
   "peerDependencies": {
     "eslint": "^0.24.1",
