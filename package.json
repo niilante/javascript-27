@@ -10,18 +10,18 @@
   },
   "main": "jscs/index",
   "peerDependencies": {
-    "eslint": "^0.24.1",
+    "eslint": ">=1.0.0",
     "jscs": ">=1.13.1"
   },
   "dependencies": {
     "chai": "3.1.0"
   },
   "devDependencies": {
-    "eslint": "0.24.1",
+    "eslint": "1.1.0",
     "jscs": "2.0.0",
     "mocha": "2.2.5"
   },
   "scripts": {
-    "test": "eslint jscs test --reset && jscs jscs test -c ./jscs/jscs.json && mocha"
+    "test": "eslint jscs test && jscs jscs test -c ./jscs/jscs.json && mocha"
   }
 }
