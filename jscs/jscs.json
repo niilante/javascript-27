@@ -72,5 +72,9 @@
   "requireSpaceBetweenArguments": true,
   "requireSemicolons": true,
   "validateIndentation": 2,
-  "validateParameterSeparator": ", "
+  "validateParameterSeparator": ", ",
+  "validateQuoteMarks": {
+    "mark": "'",
+    "escape": true
+  }
 }
