@@ -13,7 +13,16 @@
   "disallowYodaConditions": true,
   "disallowEmptyBlocks": true,
   "disallowMultipleSpaces": true,
-  "disallowObjectMethod": [{
+  "disallowObjectMethod": [
+  {
+    "object": "context",
+    "method": "only",
+    "message": "Using context.only is not allowed"
+  }, {
+    "object": "context",
+    "method": "skip",
+    "message": "Using context.skip is not allowed"
+  }, {
     "object": "describe",
     "method": "only",
     "message": "Using describe.only is not allowed"
