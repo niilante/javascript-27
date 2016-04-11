@@ -75,6 +75,7 @@
   "validateParameterSeparator": ", ",
   "validateQuoteMarks": {
     "mark": "'",
-    "escape": true
+    "escape": true,
+    "ignoreJSX": true
   }
 }
