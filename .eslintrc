@@ -1,4 +1,10 @@
 {
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  },
   "rules": {
     "curly": [2, "all"],
     "dot-location": [2, "property"],
@@ -15,10 +21,12 @@
     "no-debugger": 2,
     "no-div-regex": 2,
     "no-dupe-args": 2,
+    "no-dupe-class-members": 2,
     "no-dupe-keys": 2,
     "no-duplicate-case": 2,
     "no-empty": 2,
     "no-empty-character-class": 2,
+    "no-empty-pattern": 2,
     "no-eval": 2,
     "no-ex-assign": 2,
     "no-extra-bind": 2,
@@ -57,7 +65,9 @@
     "no-unreachable": 2,
     "no-unused-vars": 2,
     "no-use-before-define": [2, "nofunc"],
+    "no-useless-concat": 2,
     "no-void": 2,
+    "no-whitespace-before-property": 2,
     "no-with": 2,
     "strict": [2, "global"],
     "use-isnan": 2,
