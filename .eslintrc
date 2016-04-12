@@ -1,4 +1,10 @@
 {
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "script"
+  },
   "rules": {
     "curly": [2, "all"],
     "dot-location": [2, "property"],
