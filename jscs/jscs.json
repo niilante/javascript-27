@@ -1,5 +1,6 @@
 {
   "additionalRules": ["rules/*.js"],
+  "disallowIdenticalDestructuringNames": true,
   "disallowImplicitTypeConversion": ["string"],
   "disallowSpaceBeforeBinaryOperators": [","],
   "disallowSpaceAfterBinaryOperators": ["!"],
@@ -40,6 +41,7 @@
     "method": "skip",
     "message": "Using it.skip is not allowed"
   }],
+  "disallowNewlineBeforeBlockStatements": true,
   "disallowQuotedKeysInObjects": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
   "disallowSpaceAfterObjectKeys": true,
