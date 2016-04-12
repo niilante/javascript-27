@@ -10,8 +10,8 @@
   },
   "main": "jscs/index",
   "peerDependencies": {
-    "eslint": ">=1.0.0",
-    "jscs": ">=1.13.1"
+    "eslint": ">=2.7.0",
+    "jscs": ">=2.11.0"
   },
   "dependencies": {
     "chai": "3.1.0"
