@@ -12,14 +12,6 @@ describe('rules/disallow-object-method', function() {
   });
 
   describe('invalid options', function() {
-    it('should throw if false', function() {
-      assert.throws(function() {
-        checker.configure({
-          disallowObjectMethod: false
-        });
-      });
-    });
-
     it('should throw if object', function() {
       assert.throws(function() {
         checker.configure({

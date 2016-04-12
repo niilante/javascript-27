@@ -10,15 +10,15 @@
   },
   "main": "jscs/index",
   "peerDependencies": {
-    "eslint": ">=1.0.0",
-    "jscs": ">=1.13.1"
+    "eslint": ">=2.7.0",
+    "jscs": ">=2.11.0"
   },
   "dependencies": {
     "chai": "3.1.0"
   },
   "devDependencies": {
-    "eslint": "1.1.0",
-    "jscs": "2.0.0",
+    "eslint": "2.7.0",
+    "jscs": "2.11.0",
     "mocha": "2.2.5"
   },
   "scripts": {
