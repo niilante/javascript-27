@@ -1,6 +1,6 @@
 {
   "name": "wealthfront-javascript",
-  "version": "2.4.1",
+  "version": "3.0.0",
   "description": "A collection of Wealthfront configuration files for use in front end projects",
   "author": "Wealthfront Engineering <eng@wealthfront.com> (http://wlth.fr)",
   "license": "Apache-2.0",
