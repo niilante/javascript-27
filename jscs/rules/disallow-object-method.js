@@ -21,7 +21,7 @@
  * ```
  */
 
-var assert = require('chai').assert;
+const assert = require('chai').assert;
 
 module.exports = function() {};
 
@@ -46,9 +46,9 @@ module.exports.prototype = {
   },
 
   check: function(file, errors) {
-    this._options.forEach(function(option) {
-      file.iterateNodesByType('CallExpression', function(node) {
-        var callee = node.callee;
+    this._options.forEach(option => {
+      file.iterateNodesByType('CallExpression', node => {
+        const callee = node.callee;
 
         if (callee.type !== 'MemberExpression') {
           return;
