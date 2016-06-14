@@ -1,27 +1,27 @@
 'use strict';
 
-var Checker = require('jscs/lib/checker');
-var assert = require('chai').assert;
+const Checker = require('jscs/lib/checker');
+const assert = require('chai').assert;
 
-describe('rules/disallow-object-method', function() {
-  var checker;
+describe('rules/disallow-object-method', () => {
+  let checker;
 
-  beforeEach(function() {
+  beforeEach(() => {
     checker = new Checker();
     checker.registerRule(require('../../../jscs/rules/disallow-object-method'));
   });
 
-  describe('invalid options', function() {
-    it('should throw if object', function() {
-      assert.throws(function() {
+  describe('invalid options', () => {
+    it('should throw if object', () => {
+      assert.throws(() => {
         checker.configure({
           disallowObjectMethod: {}
         });
       });
     });
 
-    it('should throw if array of numbers', function() {
-      assert.throws(function() {
+    it('should throw if array of numbers', () => {
+      assert.throws(() => {
         checker.configure({
           disallowObjectMethod: [2, 3]
         });
@@ -29,9 +29,9 @@ describe('rules/disallow-object-method', function() {
     });
   });
 
-  describe('valid opiton', function() {
-    it('should not throw if array of objects with keys', function() {
-      assert.doesNotThrow(function() {
+  describe('valid opiton', () => {
+    it('should not throw if array of objects with keys', () => {
+      assert.doesNotThrow(() => {
         checker.configure({
           disallowObjectMethod: [{
             object: 'foo',
@@ -46,7 +46,7 @@ describe('rules/disallow-object-method', function() {
       });
     });
 
-    it('should fail when using a blacklisted method', function() {
+    it('should fail when using a blacklisted method', () => {
       checker.configure({
         disallowObjectMethod: [{
           object: 'foo',
@@ -58,7 +58,7 @@ describe('rules/disallow-object-method', function() {
       assert.equal(checker.checkString('foo.bar()').getErrorCount(), 1);
     });
 
-    it('should fail with a message when using a blacklisted method', function() {
+    it('should fail with a message when using a blacklisted method', () => {
       checker.configure({
         disallowObjectMethod: [{
           object: 'foo',
@@ -67,11 +67,11 @@ describe('rules/disallow-object-method', function() {
         }]
       });
 
-      var errors = checker.checkString('foo.bar()').getErrorList();
+      const errors = checker.checkString('foo.bar()').getErrorList();
       assert.equal(errors[0].message, 'blah blah');
     });
 
-    it('should not fail when not using a blacklisted method', function() {
+    it('should not fail when not using a blacklisted method', () => {
       checker.configure({
         disallowObjectMethod: [{
           object: 'foo',
@@ -83,7 +83,7 @@ describe('rules/disallow-object-method', function() {
       assert.equal(checker.checkString('foo.baz()').getErrorCount(), 0);
     });
 
-    it('should fail for multiple blacklisted methods', function() {
+    it('should fail for multiple blacklisted methods', () => {
       checker.configure({
         disallowObjectMethod: [{
           object: 'foo',
