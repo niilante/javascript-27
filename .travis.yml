@@ -15,4 +15,4 @@ deploy:
   on:
     tags: true
     repo: wealthfront/javascript
-    node: '0.12'
+    node: '4'
