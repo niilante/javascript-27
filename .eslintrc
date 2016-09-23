@@ -20,6 +20,10 @@
     "eqeqeq": 2,
     "func-call-spacing": 2,
     "func-style": ["error", "declaration"],
+    "indent": [2, 2, {
+      "SwitchCase": 1,
+      "MemberExpression": 1
+    }],
     "key-spacing": 2,
     "keyword-spacing": 2,
     "max-depth": [2, 5],
@@ -58,6 +62,11 @@
     "no-lone-blocks": 2,
     "no-loop-func": 2,
     "no-mixed-spaces-and-tabs": 2,
+    "no-multiple-empty-lines": [2, {
+      "max": 1,
+      "maxBOF": 0,
+      "maxEOF": 1
+    }],
     "no-multi-spaces": 2,
     "no-native-reassign": 2,
     "no-negated-in-lhs": 2,
@@ -70,6 +79,27 @@
     "no-proto": 2,
     "no-redeclare": 2,
     "no-regex-spaces": 2,
+    "no-restricted-properties": [2,
+      {
+        "object": "context",
+        "property": "only"
+      }, {
+        "object": "context",
+        "property": "skip"
+      }, {
+        "object": "describe",
+        "property": "only"
+      }, {
+        "object": "describe",
+        "property": "skip"
+      }, {
+        "object": "it",
+        "property": "only"
+      }, {
+        "object": "it",
+        "property": "skip"
+      }
+    ],
     "no-return-assign": [2, "always"],
     "no-self-compare": 2,
     "no-sequences": 2,
@@ -101,6 +131,13 @@
     "space-before-blocks": 2,
     "space-in-parens": 2,
     "space-infix-ops": 2,
+    "space-unary-ops": [2, {
+      "words": true,
+      "nonwords": false,
+      "overrides": {
+        "typeof": false,
+      }
+    }],
     "strict": [2, "global"],
     "template-curly-spacing": 2,
     "use-isnan": 2,
