@@ -1,94 +1,16 @@
 {
-  "additionalRules": ["rules/*.js"],
-  "disallowIdenticalDestructuringNames": true,
   "disallowImplicitTypeConversion": ["string"],
-  "disallowSpaceBeforeBinaryOperators": [","],
-  "disallowSpaceAfterBinaryOperators": ["!"],
-  "disallowKeywords": ["with"],
-  "disallowKeywordsOnNewLine": ["else"],
   "disallowMultipleLineBreaks": true,
-  "disallowMultipleVarDecl": true,
-  "disallowSpaceBeforePostfixUnaryOperators": true,
-  "disallowSpacesInsideTemplateStringPlaceholders": true,
-  "disallowMixedSpacesAndTabs": true,
-  "disallowTrailingComma": true,
-  "disallowYodaConditions": true,
-  "disallowEmptyBlocks": true,
-  "disallowMultipleSpaces": true,
-  "disallowObjectMethod": [
-  {
-    "object": "context",
-    "method": "only",
-    "message": "Using context.only is not allowed"
-  }, {
-    "object": "context",
-    "method": "skip",
-    "message": "Using context.skip is not allowed"
-  }, {
-    "object": "describe",
-    "method": "only",
-    "message": "Using describe.only is not allowed"
-  }, {
-    "object": "describe",
-    "method": "skip",
-    "message": "Using describe.skip is not allowed"
-  }, {
-    "object": "it",
-    "method": "only",
-    "message": "Using it.only is not allowed"
-  }, {
-    "object": "it",
-    "method": "skip",
-    "message": "Using it.skip is not allowed"
-  }],
   "disallowNewlineBeforeBlockStatements": true,
-  "disallowQuotedKeysInObjects": true,
-  "disallowSpaceAfterPrefixUnaryOperators": true,
-  "disallowSpaceAfterObjectKeys": true,
-  "disallowSpacesInCallExpression": true,
-  "disallowSpacesInsideParentheses": true,
-  "disallowSpacesInsideArrayBrackets": true,
-  "disallowTrailingWhitespace": true,
-  "maximumLineLength": 120,
-  "disallowSpacesInFunction": {
-    "beforeOpeningRoundBrace": true
-  },
-  "requireSpacesInFunction": {
-    "beforeOpeningCurlyBrace": true
-  },
   "requireBlocksOnNewline": true,
   "requireDollarBeforejQueryAssignment": true,
-  "requireCapitalizedConstructors": true,
   "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
-  "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
-  "requireDotNotation": true,
   "requirePaddingNewLinesInObjects": true,
-  "requireFunctionDeclarations": true,
-  "requireLineFeedAtFileEnd": true,
   "requireLineBreakAfterVariableAssignment": true,
-  "requireSpaceBeforeBinaryOperators": ["?", "+", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
-  "requireSpaceAfterBinaryOperators": ["?", "+", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
-  "requireSpaceBeforeDestructuredValues": true,
-  "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try"],
   "requireParenthesesAroundIIFE": true,
   "requirePaddingNewLinesBeforeExport": true,
   "requirePaddingNewLinesAfterUseStrict": true,
   "requirePaddingNewLinesAfterBlocks": {
       "allExcept": ["inCallExpressions", "inArrayExpressions", "inProperties"]
-  },
-  "requireSpacesInConditionalExpression": true,
-  "requireSpacesInForStatement": true,
-  "requireCapitalizedConstructors": true,
-  "requireSpaceBeforeObjectValues": true,
-  "requireCommaBeforeLineBreak": true,
-  "requireSpaceBeforeBlockStatements": true,
-  "requireSpaceBetweenArguments": true,
-  "requireSemicolons": true,
-  "validateIndentation": 2,
-  "validateParameterSeparator": ", ",
-  "validateQuoteMarks": {
-    "mark": "'",
-    "escape": true,
-    "ignoreJSX": true
   }
 }
