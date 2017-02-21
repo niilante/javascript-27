@@ -1,6 +1,6 @@
 {
   "name": "wealthfront-javascript",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "A collection of Wealthfront configuration files for use in front end projects",
   "author": "Wealthfront Engineering <eng@wealthfront.com> (http://wlth.fr)",
   "license": "Apache-2.0",
@@ -11,11 +11,11 @@
   "main": "jscs/index",
   "peerDependencies": {
     "eslint": ">=3.5.0",
-    "jscs": ">=2.11.0"
+    "jscs": ">=3.0.4"
   },
   "devDependencies": {
     "eslint": "3.5.0",
-    "jscs": "2.11.0",
+    "jscs": "3.0.4",
     "mocha": "2.2.5"
   },
   "scripts": {

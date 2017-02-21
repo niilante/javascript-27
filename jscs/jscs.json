@@ -11,6 +11,6 @@
   "requirePaddingNewLinesBeforeExport": true,
   "requirePaddingNewLinesAfterUseStrict": true,
   "requirePaddingNewLinesAfterBlocks": {
-      "allExcept": ["inCallExpressions", "inArrayExpressions", "inProperties"]
+      "allExcept": ["inCallExpressions", "inArrayExpressions", "inProperties", "singleLine"]
   }
 }
